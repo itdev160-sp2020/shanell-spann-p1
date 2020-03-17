@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.images{
+    width: 100%;
+}
+
+
+.topnav {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 1px 2px 4px #383838;
+  background: rgba(173, 173, 173, 0.3);
+}
+
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: seagreen;
+  color: white;
+}
+
+.topnav a.active {
+  color: black;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5em;
+}
+
+.topnav-right {
+  float: right;
+}
+
+#menu{
+    width: 100%;
+    border-color: green;
+}
+
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+   
+}
+
+.footer_background{
+    background-color: seagreen;
+    color: #dee2e6;
+    font-weight: 300;
+    padding-bottom: 0.3rem;
+    padding-top: 0.3rem;
+}
+
+.footer_container{
+    width: 100%;
+}
+
+.footer_centeralignall{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15px;
+    margin-right: 15px;
+    align-items: center;
+}
+
+.footer_centerleft{
+    position: relative;
+    width: 45%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.footer_right{
+    width: 45%;
+}
+.footer_centerright{
+    list-style-type: none;
+    float: right;
+    display: flex;
+}
+
+.footer_iconlist{
+    margin-left: 12%;
+}
+
+/*--------------------------------------*/
+@media screen and (max-width: 800px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+.topnav {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 0px 0px;
+  background: rgba(173, 173, 173, 0.3);
+    }
+    
+}
+
