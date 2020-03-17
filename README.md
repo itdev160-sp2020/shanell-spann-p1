@@ -1,1 +1,1 @@
-# shanell-spann-p1 hi
+Hello, this is Shanell Spann's Project #1 Repository.
