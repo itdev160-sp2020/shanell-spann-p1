@@ -10,6 +10,7 @@
         <title> Salad Company | Fresh Salads </title>
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="css/master.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <script src="https://kit.fontawesome.com/698e543486.js" crossorigin="anonymous"></script>    
     </head>
     
@@ -18,19 +19,34 @@
           <div class="topnav-centered">
             <a href="#home" class="active">The Salad Company</a>
           </div>
-            <a href="#about">About</a>
-            <a href="#menu">Menu</a> 
+             
           <div class="topnav-right">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
             <a href="#location">Location</a>
             <a href="#contact">Contact</a>
           </div>
         </nav>
         </header>
-        
-        <h1 id="greeting"></h1>
-        <div class="images">
-            <img class="image1" src="images/salad1.jpg" style="width:100%">
-            <img class="image2" src="images/salad2.jpg" style="width:100%">
+
+        <div class="w3-content w3-section" style="max-width:100%">
+          <img class="slideshow" src="images/salad1.jpg" style="width:100%">
+          <img class="slideshow" src="images/salad2.jpg" style="width:100%">
+          <img class="slideshow" src="images/salad3.jpg" style="width:100%">
+        </div>
+
+        <div class="menu-section">
+          <div class="menu-about">
+            <h3 id="greeting"> </h3>
+            <p id="about"> “Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Nam hendrerit nisi sed sollicitudin pellentesque. Nunc posuere purus rhoncus pulvinar aliquam. 
+              Ut aliquet tristique nisl vitae volutpat. Nulla aliquet porttitor venenatis. 
+              Donec a dui et dui fringilla consectetur id nec massa. Aliquam erat volutpat. 
+              Sed ut dui ut lacus dictum fermentum vel tincidunt neque. Sed sed lacinia lectus. 
+              Duis sit amet sodales felis. Duis nunc eros, mattis at dui ac, convallis semper risus. 
+              In adipiscing ultrices tellus, in suscipit massa vehicula eu.”</p>
+          </div>
+          <div class="menu-table">
             <table id="menu" border="1" cellspacing="0">
                 <tr>
                   <th>Name</th>
@@ -51,14 +67,33 @@
                     <td>Berry Salad</td>
                     <td>Sweet</td>
                     <td>$6.99</td>
-                  </tr>
+                </tr>
+                <tr>
+                  <td>Island Salad</td>
+                  <td>Citrus</td>
+                  <td>$5.99</td>
+              </tr>
+              <tr>
+                <td>Chicken Salad</td>
+                <td>Savory</td>
+                <td>$8.99</td>
+            </tr>
+            <tr>
+              <td>Caesar Salad</td>
+              <td>Salty</td>
+              <td>$7.99</td>
+          </tr>
             </table>
-            <img class="image3" src="images/salad3.jpg" style="width:100%">
+          </div>
+        </div>
+        
+        <div id="location">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46645.36077413721!2d-87.91670359958702!3d43.05542037834909!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880518e61197e4b7%3A0xddf1cb3ec53ea1ff!2sVeterans%20Park%2C%20Milwaukee%2C%20WI!5e0!3m2!1sen!2sus!4v1584580431634!5m2!1sen!2sus" 
+          width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
         </div>
         
         
-        
-        <footer>
+        <footer id="contact">
           <div class="footer_background">
             <div class="footer_container">
               <div class="footer_centeralignall">

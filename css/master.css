@@ -11,10 +11,9 @@ body{
     font-family: sans-serif;
 }
 
-.images{
-    width: 100%;
+.w3-content .w3-section{
+  margin-bottom: 0 !important;
 }
-
 
 .topnav {
   position: relative;
@@ -58,11 +57,15 @@ body{
 
 #menu{
     width: 100%;
-    border-color: green;
+    border-color: rgb(2, 48, 2);
+}
+
+#greeting{
+    font-weight: bold;
 }
 
 footer{
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -109,6 +112,26 @@ footer{
     margin-left: 12%;
 }
 
+.menu-section{
+  width: 100%;
+  column-count: 2;
+  display: flex;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(235, 250, 232);
+}
+
+.menu-about{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.menu-table{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 /*--------------------------------------*/
 @media screen and (max-width: 800px) {
   .topnav a, .topnav-right {
